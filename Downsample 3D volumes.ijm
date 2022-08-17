@@ -1,5 +1,6 @@
 /*
- * Macro template to process multiple images in a folder
+ * Rough draft for downsampling 2GB images into 128x128x128 cubes.
+ * Future iterations should take into account size metadata for accurate isotropic voxels
  */
 
 #@ File (label = "Input directory", style = "directory") input
